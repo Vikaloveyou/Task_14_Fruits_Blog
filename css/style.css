@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: #b07cf7;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 200px;
+  text-align: center;
+  font-size: 5.5rem;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.inform {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 600px;
+  line-height: 20px;
+}
+
+.images {
+  margin: 40px auto;
+  width: 1090px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 350px;
+  }
+
+.image {
+  position: relative;
+}
+
+.date {
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  background-color: rgba(73, 79, 89, 0.4);
+  color: white;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase; 
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 18px;
+}
+
+.numeral {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.topic a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 20px;
+}
+
+.topic {
+  position: absolute;
+  top: 190px;
+  left: 20px;
+  background: transparent;
+  z-index: 2;
+}
+
+.time {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  background: transparent;
+  z-index: 2;
+}
+
+
+.gradient_1 {
+  position: absolute;
+  top: 185px;
+  left: 8px;
+  width: 335px;
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, #000);
+  z-index: 1;
+}
+
+.gradient_2 {
+  position: absolute;
+  top: 185px;
+  left: 3px;
+  width: 343px;
+  height: 104px;
+  background: linear-gradient(to bottom, transparent, #000);
+  z-index: 1;
+}
+
+footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+}
+
+.button_view_more {
+  width: 176px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 13px;
+  padding-top: 18px;
+  background-color: #f82b3c;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
